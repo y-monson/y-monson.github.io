@@ -2,60 +2,62 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Yelena's Site</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Yelena's Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+  </head>
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-            </ul>
-        </nav>
+  <body>
+    <section class="intro-image">
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    <main>
+      <section class="intro-allignment">
+        <h1>Hi, I'm Yelena Monson, Web Developer based in South Dakota.</h1>
+      </section>
+    </section>
+    <section id="skills" class="container">
+      <div class="box-title">
+        <h2>Skills</h2>
+      </div>
+      <div class="box">
+        <ul>
+          <li><p>HTML5 & CSS | Java Script</p></li>
+          <li><p>Python | Java | SQL | Git</p></li>
+        </ul>
+      </div>
+      <div class="box"></div>
+    </section>
+    <section id="projects"class="container">
+      <div class="box-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="box">
+        <h3 class="padding-bottom">Dog Travel Club</h3>
+        <p>Blog about travelling with my dog</p>
+      </div>
+      <div class="box" id="description">
+        <p class="padding-bottom">The site is build with <strong>Python Flask</strong> framework. 
+          It has functionality to register and sign in. Currently, user credentials
+          are stored in a text file, databse is coming soon.</p>
+        <p class="link"><a href="https://github.com/y-monson/dogtravelclub.git">https://github.com/y-monson/dogtravelclub.git</a></p>
+      </div>
+    </section>
+    </main> 
 
-        <main>
-            <section class="intro-image">
-                <section class="intro-allignment">
-                    <h1>Hi, I'm Yelena Monson, Web Developer based in South Dakota.</h1>
-                </section>
-            </section>
-            
-            <section id="skills" class="container">
-                <div class="box-title"><h2>Skills</h2></div>
-                <div class="box">
-                <ul>
-                    <li><p>HTML5 & CSS | Java Script</p></li>
-                    <li><p>Python | Java | SQL | Git</p></li>
-                </ul>
-                </div>
-                <div class="box"></div>
-                <div class="box"></div>
-            
-            </section>
-
-            <section id="projects"class="container">
-                <div class="box-title"><h2>Projects</h2></div>
-                <div class="box"><h3>Dog Travel Club</h3>
-                    <p>Blog about travelling with my dog.</p></div>
-                <div class="box"><p>The site is build with <strong>Python Flask</strong> framework. 
-                    It has functionality to register and sign in. Currently, user credentials
-                     are stored in a text file, databse is coming soon.</p></div>
-                <div class="box"><p>https://github.com/y-monson/dogtravelclub.git</p></div>
-            </section>
-
-        </main>
-
-        <footer>
-
-        </footer>
-    
-    </body>
+    <footer>
+      <a href="https://www.linkedin.com/in/yelenamonson/" target="_blank">https://www.linkedin.com/in/yelenamonson/</a>
+    </footer>
+      
+  </body>
 </html>

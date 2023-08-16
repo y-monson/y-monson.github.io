@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Yelena's Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="projects-page">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="container">
+        <div class="box-projects">
+          <h2 class="padding-bottom">Blog: Dog Travel Club</h2>
+        </div>
+        <div class="box" id="description">
+          <p class="padding-bottom">The site is build with <strong>Python Flask</strong> framework.</p>
+          <p><strong>Functionality</strong>: From the landing page, user can register/login to access the rest of the site. 
+            User credentials are stored in a text file. Once user completes registration, the site validates the credentials 
+            against the file and redirects to the login page.</p> 
+          <p><strong>Feedback</strong>: Flask flashing system is utilized to display on-screen messages
+            to inform the user if registration was completed successfully.</p>
+          <p><strong>Security</strong>: Password security is implemented requiring at least 12 character password length. 
+            User is notified if the requirement is not met. The passwords are also checked against 
+            common password list.</p>
+          <p class="padding-bottom"></p>
+          <p><strong>Github</strong>: <a class="link" href="https://github.com/y-monson/dogtravelclub.git" target="_blank">
+            https://github.com/y-monson/dogtravelclub.git</a></p>
+          <p class="padding-bottom"></p>
+          <p><strong>Screenshots:</strong></p>
+        </div>
+      </section>
+
+      <section class="container">
+        <section class="container-panel">
+          <div class="panel active" style="background-image: url('/assets/homepg.png')">
+            <h3>Landing Page</h3>
+          </div>
+          <div class="panel" style="background-image: url('assets/register_pg.png')">
+            <h3>Registration Page</h3>
+          </div>
+          <div class="panel" style="background-image: url('/assets/login.png')">
+            <h3>Login Page</h3>
+          </div>
+          <div class="panel" style="background-image: url('/assets/landing.png')">
+            <h3>index.html</h3>
+          </div>
+          <div class="panel" style="background-image: url('/assets/python.png')">
+            <h3>python flask</h3>
+          </div>
+          <div class="panel" style="background-image: url('/assets/layout.png')">
+            <h3>layout.html</h3>
+          </div>
+          <div class="panel" style="background-image: url('/assets/register.png')">
+            <h3>register.html</h3>
+          </div>
+        </section>
+      </section>
+
+    </main>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/yelenamonson/" target="_blank">https://www.linkedin.com/in/yelenamonson/</a>
+    </footer>
+            
+    <script src="app.js"></script>
+  </body>
+</html>
