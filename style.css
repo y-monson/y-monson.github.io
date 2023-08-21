@@ -360,4 +360,16 @@ footer a {
   .container-panel {
     flex-direction: column;
   }
+  .panel {
+    margin: 0.5;
+  }
+  .panel h2 {
+    font-size: 1rem;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+  .panel p {
+    font-size: 0.8rem;
+    padding: 0;
+  }
 }
