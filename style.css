@@ -10,14 +10,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(47, 46, 46);
-  background-color: #f8f8f8;
-}
-
-.main-color {
-  background-color: white;
 }
 
 /* ------ NAVIGATION BAR ---------------------- */
+header {
+  background-color: #f8f8f8;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -47,7 +46,6 @@ nav a {
 
 .header-title h1 {
   font-weight: 100;
-  /*color: rgb(34, 24, 222);*/
   color: rgb(121, 58, 4);
 }
 
@@ -91,8 +89,8 @@ p {
 
 .container-nav {
   display: flex;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .row {
@@ -164,7 +162,6 @@ p {
   text-decoration: none;
   color: rgb(22, 141, 200);
 }
-
 /* --- End of LANDING PAGE ------------------------------------- */
 
 /* --- ABOUT PAGE ---------------------------------------------- */
@@ -178,6 +175,8 @@ p {
 .container-about-me {
   padding-top: 5em;
   padding-bottom: 5em;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* Styles for the card view display*/
@@ -286,8 +285,9 @@ footer a {
   display:inline-block;
 }
 
-/* Responsive design */
+/* --- End of FOOTER section -------------------------------------- */
 
+/* --- Responsive design ------------------------------------------ */
 @media (max-width: 500px) {
   .intro-image h1 {
     font-size: 0.7rem;
@@ -297,13 +297,11 @@ footer a {
   }
 }
 
-
 @media (max-width: 600px) {
   .intro-image h1 {
     font-size: 2rem;
     width: 70%;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -319,18 +317,20 @@ footer a {
   .col {
     width: 100%;
   }
-
   .container-nav {
     flex-direction: column;
+  }
+  .container-about-me {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
   }
   nav {
     justify-content: center;
   }
-
   .header-title {
     width: 100%;
   }
-
   nav li {
     padding: 0.5em;
     text-align: center;
@@ -351,6 +351,7 @@ footer a {
   .col {
     width: 100%;
   }
+
   .header-title h1 {
     text-align: center;
   }
