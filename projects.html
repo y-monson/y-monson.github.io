@@ -11,22 +11,24 @@
   </head>
 
   <body>
-    <header class="container container-nav">
-      <div class="header-title">
-        <h1>Web Development Portfolio</h1>
-        <p>CREATED BY YELENA MONSON</p>
+    <header> 
+      <div class="container container-nav">
+        <div class="header-title">
+          <h1>Web Development Portfolio</h1>
+          <p>CREATED BY YELENA MONSON</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a class="current-page" href="projects.html">Projects</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a class="current-page" href="projects.html">Projects</a></li>
-        </ul>
-      </nav>
     </header>
-    <main class="main-color">
+    <main>
       <section class="container">
-        <div class="row align">
+        <div class="row align-baseline">
           <div class="col col-2 padding">
             <h2>Blog: Dog Travel Club</h2>
           </div>
@@ -47,37 +49,34 @@
             <br>
             <p><strong>Github</strong>: <a class="link" href="https://github.com/y-monson/dogtravelclub.git" target="_blank">
               https://github.com/y-monson/dogtravelclub.git</a></p>
-            <br>
-            <p><strong>Screenshots:</strong></p>
           </div>
         </div>
       </section>
 
-      <!-- <section class="container">
-        <section class="container-panel">
-          <div class="panel active" style="background-image: url('/assets/homepg.png')">
-            <h3>Landing Page</h3>
+      <section class="container">
+        <div class="row">
+          <div class="col col-2">
+            <h3>Screenshots</h3>
           </div>
-          <div class="panel" style="background-image: url('assets/register_pg.png')">
-            <h3>Registration Page</h3>
+          <div class="col col-wide">
+            <div class="carousel">
+              <div class="image-container" id="imgs">
+                <img src="/assets/homepg.png" alt="img-1">
+                <img src="assets/register_pg.png" alt="img-2">  
+                <img src="/assets/login.png" alt="img-3">    
+                <img src="/assets/landing.png" alt="img-4">    
+                <img src="/assets/python.png" alt="img-5">  
+                <img src="/assets/layout.png" alt="img-6">    
+                <img src="/assets/register.png" alt="img-7">
+              </div>
+              <div class="buttons-container">
+                <button class="btn" id="left">Prev</button>
+                <button class="btn" id="right">Next</button>
+              </div>
           </div>
-          <div class="panel" style="background-image: url('/assets/login.png')">
-            <h3>Login Page</h3>
-          </div>
-          <div class="panel" style="background-image: url('/assets/landing.png')">
-            <h3>index.html</h3>
-          </div>
-          <div class="panel" style="background-image: url('/assets/python.png')">
-            <h3>python flask</h3>
-          </div>
-          <div class="panel" style="background-image: url('/assets/layout.png')">
-            <h3>layout.html</h3>
-          </div>
-          <div class="panel" style="background-image: url('/assets/register.png')">
-            <h3>register.html</h3>
-          </div>
-        </section>
-      </section> -->
+      </div>
+        </div>
+      </section>
 
     </main>
 
@@ -85,6 +84,6 @@
       <a href="https://www.linkedin.com/in/yelenamonson/" target="_blank">https://www.linkedin.com/in/yelenamonson/</a>
     </footer>
             
-    <script src="app.js"></script>
+    <script src="app_2.js"></script>
   </body>
 </html>
