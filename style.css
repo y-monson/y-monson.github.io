@@ -353,6 +353,9 @@ footer a {
     font-size: 2rem;
     width: 70%;
   }
+  .carousel {
+    width: 250px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -386,6 +389,9 @@ footer a {
     padding: 0.5em;
     text-align: center;
     width: 100%;
+  }
+  .carousel {
+    width: 400px;
   }
 }
 
