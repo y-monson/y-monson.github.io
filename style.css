@@ -281,17 +281,17 @@ p {
   overflow: hidden;
 }
 
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out
+}
+
 img {
   width: 500px;
   height: 500px;
   object-fit:contain;
   padding: 10px;
-}
-
-.image-container {
-  display: flex;
-  transform: translateX(0);
-  transition: transform 0.5s ease-in-out
 }
 
 .buttons-container {
@@ -346,15 +346,29 @@ footer a {
     top: 15%;
     left: 5%;
   }
-}
+
+  .img-row {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+  .img-carousel {
+    box-shadow: none;
+    height: 100%;
+    width: 100%;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    visibility:hidden;
+  }
 
 @media (max-width: 600px) {
   .intro-image h1 {
     font-size: 2rem;
     width: 70%;
-  }
-  .carousel {
-    width: 250px;
   }
 }
 
@@ -389,9 +403,6 @@ footer a {
     padding: 0.5em;
     text-align: center;
     width: 100%;
-  }
-  .carousel {
-    width: 400px;
   }
 }
 
