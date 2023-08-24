@@ -456,3 +456,41 @@ footer a {
   .btn {
     visibility:hidden;
   }
+
+  @media (orientation: landscape) {
+    .intro-image h1 {
+      font-size: 0.7rem;
+      position:relative;
+      top: 15%;
+      left: 5%;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .col {
+      width: 100%;
+    }
+    .container-nav {
+      flex-direction: column;
+    }
+    .container-about-me {
+      padding-top: 0;
+      padding-bottom: 0;
+      width: 100%;
+    }
+    nav {
+      justify-content: center;
+    }
+    .header-title {
+      width: 100%;
+    }
+    nav li {
+      padding: 0.5em;
+      text-align: center;
+      width: 100%;
+    }
+
+  }
