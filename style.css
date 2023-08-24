@@ -339,40 +339,66 @@ footer a {
 /* --- End of FOOTER section -------------------------------------- */
 
 /* --- Responsive design ------------------------------------------ */
-@media (max-width: 500px) {
-  .intro-image h1 {
-    font-size: 0.7rem;
-    position:relative;
-    top: 15%;
-    left: 5%;
-  }
 
-  .img-row {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+
+
+@media (max-width: 1000px) {
+  .intro-image h1 {
+    font-size: 3rem;
+    width: 70%;
   }
-  .img-carousel {
-    box-shadow: none;
-    height: 100%;
-    width: 100%;
-  }
-  .image-container {
+  .row {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .col {
+    width: 100%;
   }
 
-  .btn {
-    visibility:hidden;
+  .header-title h1 {
+    text-align: center;
   }
-
-@media (max-width: 600px) {
-  .intro-image h1 {
-    font-size: 2rem;
-    width: 70%;
+  .header-title p {
+    text-align: center;
+  }
+  .panel {
+    width: 5%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .col {
+    width: 100%;
+  }
+  .container-nav {
+    flex-direction: column;
+  }
+  .container-about-me {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  nav {
+    justify-content: center;
+  }
+  .header-title {
+    width: 100%;
+  }
+  nav li {
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 600px) {
   .intro-image h1 {
     font-size: 2rem;
     width: 70%;
@@ -406,27 +432,27 @@ footer a {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .intro-image h1 {
-    font-size: 3rem;
-    width: 70%;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .col {
-    width: 100%;
+    font-size: 0.7rem;
+    position:relative;
+    top: 15%;
+    left: 5%;
   }
 
-  .header-title h1 {
-    text-align: center;
+  .img-row {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
   }
-  .header-title p {
-    text-align: center;
+  .img-carousel {
+    box-shadow: none;
+    height: 100%;
+    width: 100%;
   }
-  .panel {
-    width: 5%;
+  .image-container {
+    display: flex;
+    flex-direction: column;
   }
-}
+  .btn {
+    visibility:hidden;
+  }
