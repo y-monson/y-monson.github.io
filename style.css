@@ -434,9 +434,12 @@ footer a {
 
 @media (max-width: 500px) {
 
-  .img-row {
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+  .media-container {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .img-h3 {
+    text-align: center;
   }
   .img-carousel {
     box-shadow: none;
@@ -447,6 +450,10 @@ footer a {
     display: flex;
     flex-direction: column;
   }
+
+.img {
+  padding: 0;
+}
   .btn {
     visibility:hidden;
 }
