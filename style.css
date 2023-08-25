@@ -433,12 +433,6 @@ footer a {
 }
 
 @media (max-width: 500px) {
-  .intro-image h1 {
-    font-size: 0.7rem;
-    position:relative;
-    top: 15%;
-    left: 5%;
-  }
 
   .img-row {
     padding-top: 0.2em;
@@ -455,6 +449,5 @@ footer a {
   }
   .btn {
     visibility:hidden;
-  }
-
-  
+}
+}
