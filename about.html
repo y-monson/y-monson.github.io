@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==
+    " crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -30,27 +33,40 @@
     </header>
     <main>
       <section class="container-about-me">
-        <section class="container-panel background">
-          <div class="panel yellow">
-            <h2 class="panel-h2">Welcome to my site!</h2>
-            <p>I am motivated and enthusiastic <strong>web developer</strong>
+        <h2>Yelena's Qualifications and Goals</h2>
+        <section class="panel-container background">
+          <div class="panel active" id="yellow">
+            <h3 class="panel-title">Welcome to my site!</h3>
+            <p class="panel-text">I am motivated and enthusiastic <strong>web developer</strong>
             with passion for creating
             beautiful and functional websites.</p>
+            <button class="btn-toggle">
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-times"></i>
+            </button>
           </div>
-          <div class="panel pink">
-            <h2 class="panel-h2">Background</h2>
-            <p>Currently pursuing a second bachelor's degree in <strong>Computer Science</strong>, 
+          <div class="panel" id="pink">
+            <h3 class="panel-title">Background</h3>
+            <p class="panel-text">Currently pursuing a second bachelor's degree in <strong>Computer Science</strong>, 
               my background is in IT Support. After spending 
               7 years in this field, I made a deliberate decision to refocus my career on software 
-              development.
-            </p>
+              development.</p>
+              <button class="btn-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
           </div>
-          <div class="panel green">
-            <h2 class="panel-h2">Interests</h2>
-            <p>I am interested in learning every aspect of web development, 
+          <div class="panel" id="green">
+            <h3 class="panel-title">Interests</h3>
+            <p class="panel-text">I am interested in learning every aspect of web development, 
               including design, databases, and security. I am dedicated to continuously improving and 
               expanding my skills.
             </p>
+            <button class="btn-toggle">
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-times"></i>
+            </button>
           </div>
         </section>
       </section>
