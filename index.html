@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" 
       rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==
+      " crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -25,6 +28,8 @@
           <li><a class="current-page" href="index.html">Home</a></li>
           <li><a href="about.html">About Me</a></li>
           <li><a href="projects.html">Projects</a></li>
+          <li><a href="https://www.linkedin.com/in/yelenamonson/" 
+            class="fa-brands fa-linkedin" target="_blank" id="i"></a></li>
         </ul>
       </nav>
       </div>
@@ -35,19 +40,93 @@
       </section>
 
       <section class="container">
-        <div class="row line">
+        <div class="skills-row skills-1 skills-flexstart">
           <div class="col col-1">
             <h2>Skills</h2>
+            <h4>Front-end</h4>
+          </div>  
+          <div class="skills-col col-0 card">
+            <div class="flip">
+              <p class="logo"><i class="fa-brands fa-html5 fa-2xl"></i></p>
+              <p class="logo gray">HTML5</p>
+              <div class="flip-card">
+                <p class="padding-l">Skill Level</p>
+                <p class="padding-l orange">Proficient</p>
+                <p class="padding-t padding-l">Built this site, the project, 
+                  and many CS class assignments</p>
+              </div>
+            </div>
           </div>
-          <div class="col col-skills-list">
-            <ul>
-              <li><p>HTML5 & CSS | Java Script</p></li>
-              <li><p>Python | Java | SQL | Git</p></li>
-            </ul>
+          <div class="skills-col col-0 card">
+            <div class="flip">
+              <p class="logo"><i class="fa-brands fa-css3 fa-2xl"></i></p>
+              <p class="logo gray">CSS</p>
+              <div class="flip-card">
+                <p class="padding-l">Skill Level</p>
+                <p class="padding-l orange">Proficient</p>
+                <p class="padding-t padding-l">Built this site, the project, 
+                  and many CS class assignments</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-col col-0 card">
+            <div class="flip">
+              <p class="logo"><i class="fa-brands fa-js fa-2xl"></i></p>
+              <p class="logo gray">JavaScript</p>
+              <div class="flip-card">
+                <p class="padding-l">Skill Level</p>
+                <p class="padding-l orange">Beginner</p>
+                <p class="padding-t padding-l">Wrote code for this site</p>
+                <p class="padding-l padding-t orange">Next Steps</p>
+                <p class="padding-l">Advanced JS course</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-row row-2 skills-flexstart">
+          <div class="col col-1">
+            <h4>Back-end</h4>
+          </div> 
+          <div class="skills-col col-0 card">
+            <div class="flip">
+              <p class="logo"><i class="fa-brands fa-python fa-2xl"></i></p>
+              <p class="logo gray">Python</p>
+              <div class="flip-card">
+                <p class="padding-l">Skill Level</p>
+                <p class="padding-l orange">Proficient</p>
+                <p class="padding-t padding-l">Used to build the project with python flask, many 
+                  small projects working with Pandas, NumPy, Matplotlib</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-col col-0 card">
+            <div class="flip">
+              <p class="logo"><i class="fa-brands fa-java fa-2xl"></i></p>
+              <p class="logo gray">Java</p>
+              <div class="flip-card">
+                <p class="padding-l">Skill Level</p>
+                <p class="padding-l orange">Advanced Beginner</p>
+                <p class="padding-t padding-l">Used to build class projects</p>
+                <p class="padding-l padding-t orange">Next Steps</p>
+                <p class="padding-l">Advanced Java course</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-col col-0 card">
+            <div class="flip">
+              <p class="logo"><i class="fa-solid fa-database fa-2xl"></i></p>
+              <p class="logo gray">SQL</p>
+              <div class="flip-card">
+                <p class="padding-l">Skill Level</p>
+                <p class="padding-l orange">Beginner</p>
+                <p class="padding-t padding-l">Used to build class projects</p>
+                <p class="padding-l padding-t orange">Next Steps</p>
+                <p class="padding-l">Replace flat file in the project</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
       <section class="container">
         <div class="row">
           <div class="col col-1">
@@ -67,13 +146,24 @@
           </div>
         </div>
       </section>
-
     </main> 
-
     <footer>
-      <a href="https://www.linkedin.com/in/yelenamonson/" target="_blank">
-        https://www.linkedin.com/in/yelenamonson/</a>
+      <div class="container">
+        <div class="row">
+          <div class="col col-wide">
+            <p><strong>Thank You</strong> for taking the time to visit my site!</p>
+            <p>Please don't hesitate to contact me with any questions.</p>
+          </div>
+          <div class="col col-wide">
+            <p>The best way to reach me is LinkedIn, where you may also find my resume
+              <a href="https://www.linkedin.com/in/yelenamonson/" 
+            class="fa-brands fa-linkedin fa-lg" target="_blank"></a></p>
+            <p>The code for this site and the project <a href="https://github.com/y-monson" 
+              class="fa-brands fa-square-github fa-lg" target="_blank"></a></p>
+          </div>
+        </div>
+      </div>
     </footer>
-      
+    <script src="app_3.js"></script>
   </body>
 </html>
