@@ -149,12 +149,6 @@ p {
   border-radius: 10px;
 }
 
-.col-0:hover {
-  border: solid rgb(121, 58, 4);
-  background-color: rgb(228, 228, 228);
-  cursor: pointer;
-}
-
 .col-1 {
   width: 20%;
 }
@@ -195,8 +189,7 @@ p {
   width: 50%;
 }
 
-/* Skills section - special formatting */
-
+/* Styles for the skills card */
 .logo {
   text-align: center;
   padding: 0.5em;
@@ -206,21 +199,39 @@ p {
   color: rgb(96, 92, 92);
 }
 
-#projects-link {
-  text-decoration: none;
-  color: rgb(22, 141, 200);
+.col-0:hover {
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
 }
 
-/* Styles for the skills card */
+.col-0.active:hover {
+  background-color: rgb(22, 141, 200);
+  cursor: pointer;
+}
+
 .col-0.active {
-  width: 20%;
   padding: 0.5em;
-  box-shadow: 2px 2px 5px rgba(164, 162, 162, 0.5);
-  border-radius: 10px;
 }
 
 .col-0.active p {
   line-height: 1.5rem;
+}
+
+.card.active .logo {
+  color: #fff;
+  float: right;
+}
+.card.active .logo.gray{
+  display: none;
+}
+
+.card.active {
+  background-color: rgb(15, 123, 176);
+}
+
+.card.active .flip-card {
+  display: block;
+  color: #fff;
 }
 
 .flip-card {
@@ -240,23 +251,14 @@ p {
 .padding-t {
  padding-top: 0.5em;
 }
-
-.card.active .logo {
-  color: #fff;
-  float: right;
-}
-.card.active .logo.gray{
-  display: none;
+/* link to the projects page */
+#projects-link {
+  text-decoration: none;
+  color: rgb(22, 141, 200);
 }
 
-.card.active {
-  background-color: rgb(22, 141, 200);
-}
-
-.card.active .flip-card {
-  display: block;
-  color: #fff;
-  
+.padding-b {
+  padding-bottom: 0.5em;
 }
 /* --- End of LANDING PAGE ------------------------------------- */
 
@@ -485,14 +487,24 @@ footer a {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .skills-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .col {
     width: 100%;
   }
+  .col-0 {
+    padding: 0.2em 0 0 0;
+  }
   .skills-col {
-    width: 70%;
+    width: 100%;
+    margin-left: 0;
   }
   .col-0.active {
-    width: 70%;
+    width: 100%;
+    margin-left: 0;
   }
   .container-nav {
     flex-direction: column;
