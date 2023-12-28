@@ -222,7 +222,7 @@ p {
 
 #projects-link:hover {
     color: rgb(121, 58, 4);
-  }
+}
 
 .padding-b {
   padding-bottom: 0.5em;
@@ -266,7 +266,6 @@ position: relative;
 padding: 3em 6em;
 width: 50%;
 margin: 0 auto;
-
 }
 
 .content p {
