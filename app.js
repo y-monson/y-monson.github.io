@@ -1,7 +1,15 @@
-const toggles = document.querySelectorAll('.btn-toggle')
+function toggleText(section) {
+    let panel = document.getElementById(section);
+    let partialText = panel.querySelector('.first-line');
+    let fullText = panel.querySelector('.hidden');
+    let readMoreBtn = panel.querySelector('.read-more');
 
-toggles.forEach(toggle => {
-  toggle.addEventListener('click', () => {
-    toggle.parentNode.classList.toggle('active')
-  })
-})
+    if (fullText.style.display === 'none' || fullText.style.display === '') {
+      fullText.style.display = 'block';
+      readMoreBtn.innerHTML = 'Read less';
+    } else {
+      partialText.style.display = 'block';
+      fullText.style.display = 'none';
+      readMoreBtn.innerHTML = 'Read more';
+    }
+  }

@@ -27,48 +27,51 @@
             <li><a href="index.html">Home</a></li>
             <li><a class="current-page" href="about.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://www.linkedin.com/in/yelenamonson/" 
+                class="fa-brands fa-linkedin" target="_blank" id="i"></a></li>
+            <li><a href="https://github.com/y-monson" 
+                class="fa-brands fa-square-github" target="_blank"></a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
       <section class="container-about-me">
-        <h2>Yelena's Qualifications and Goals</h2>
-        <section class="panel-container background">
-          <div class="panel" id="yellow">
-            <h3 class="panel-title">Welcome to my site!</h3>
-            <p class="panel-text">I am motivated and enthusiastic <strong>web developer</strong>
-            with passion for creating
-            beautiful and functional websites.</p>
-            <button class="btn-toggle">
-              <i class="fas fa-chevron-down"></i>
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-          <div class="panel" id="pink">
-            <h3 class="panel-title">Background</h3>
-            <p class="panel-text">Currently pursuing a second bachelor's degree in <strong>Computer Science</strong>, 
-              my background is in IT Support. After spending 
-              7 years in this field, I made a deliberate decision to refocus my career on software 
-              development.</p>
-              <button class="btn-toggle">
-                <i class="fas fa-chevron-down"></i>
-                <i class="fas fa-times"></i>
-              </button>
+        <div class="wrap">
+            <div class="content">
+                <div class="panel" id="yelena">
+                    <h3 class="center hide-p">Yelena Monson</h3>
+                    <p class="first-line hide-p">I am motivated and enthusiastic <strong>web developer</strong>
+                    with passion for creating beautiful and functional websites.</p>
+                    <p class="hidden">I am curious about every aspect of building an app from the ground up 
+                    and dedicated to continuously improving and expanding my skills. 
+                    Currently looking for front-end entry level role.</p>
+                    <button class="read-more" onclick="toggleText('yelena')">Read more</button>
+                </div>
+                <div class="panel" id="education">
+                    <h3 class="center hide-p">Education</h3>
+                    <p class="first-line hide-p">I am pursuing 2nd bachelor's degree in <strong>computer 
+                    science</strong> with the University of Maryland, focusing on 
+                    programming languages, software development, and algorithms. 
+                    </p>
+                    <p class="hidden">Recently completed coursework includes Relational Databases and SQL, 
+                        Data Structures, Building Secure Python Applications, and Java courses.
+                    </p>
+                    <button class="read-more" onclick="toggleText('education')">Read more</button>
+                </div>
+                <div class="panel" id="experience">
+                    <h3 class="center hide-p">Experience</h3>
+                    <p class="first-line hide-p">With 7+ years of experience in IT Support, I have strong knowledge 
+                        of computers, networks, servers, application support, 
+                        and assisting customers with tech issues. 
+                    </p>
+                    <p class="hidden">Supporting customers has taught me how to troublehsoot 
+                        a wide range of issues.
+                    </p>
+                    <button class="read-more" onclick="toggleText('experience')">Read more</button>
+                </div>
             </div>
-          </div>
-          <div class="panel" id="green">
-            <h3 class="panel-title">Interests</h3>
-            <p class="panel-text">I am interested in learning every aspect of web development, 
-              including design, databases, and security. I am dedicated to continuously improving and 
-              expanding my skills.
-            </p>
-            <button class="btn-toggle">
-              <i class="fas fa-chevron-down"></i>
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </section>
+        </div>
       </section>
     </main>
     <footer>
@@ -88,6 +91,8 @@
         </div>
       </div>
     </footer>
+
+    
     <script src="app.js"></script>
   </body>
 </html>
