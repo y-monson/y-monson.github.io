@@ -180,7 +180,7 @@ p {
 /* --- LANDING PAGE ----------------------------------------- */
 /* Intro section */
 .intro-image {
-  background-image: url("assets/Screenshot\ 2023-12-21\ at\ 6.36.38\ PM.png");
+  background-image: url("assets/cover.png");
   background-size: cover;
   background-position: center;
   width: 100%;
