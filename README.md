@@ -1,2 +1,2 @@
 # y-monson.github.io
-Web development project
+Site hosting my Web Development Portfolio
