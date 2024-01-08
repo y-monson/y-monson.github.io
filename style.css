@@ -411,6 +411,9 @@ footer a {
   .header-title p {
     text-align: center;
   }
+  .content {
+    width: 80%;
+  }
 }
 
 @media (max-width: 800px) {
