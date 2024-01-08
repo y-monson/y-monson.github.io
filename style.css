@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: solid green 1px;
 }
   
 * {
@@ -458,6 +459,12 @@ footer a {
   nav li {
     padding: 0.5em;
     text-align: center;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .panel {
     width: 100%;
   }
 
