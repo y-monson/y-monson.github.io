@@ -463,6 +463,7 @@ footer a {
   }
   .content {
     width: 100%;
+    padding: 0;
   }
   .panel {
     width: 100%;
