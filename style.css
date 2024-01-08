@@ -462,7 +462,7 @@ footer a {
   }
   .content {
     width: 100%;
-    padding: 0;
+    padding: 2em;
   }
   .panel {
     width: 100%;
@@ -511,6 +511,13 @@ footer a {
   nav li {
     padding: 0.5em;
     text-align: center;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    padding: 0.5em;
+  }
+  .panel {
     width: 100%;
   }
 }
