@@ -7,9 +7,11 @@ function toggleText(section) {
     if (fullText.style.display === 'none' || fullText.style.display === '') {
       fullText.style.display = 'block';
       readMoreBtn.innerHTML = 'Read less';
+      readMoreBtn.style.color = 'white'; 
     } else {
       partialText.style.display = 'block';
       fullText.style.display = 'none';
       readMoreBtn.innerHTML = 'Read more';
+      readMoreBtn.style.color = '';
     }
   }
