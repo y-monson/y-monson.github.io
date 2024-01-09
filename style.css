@@ -150,7 +150,7 @@ p {
   margin: 0.8em;
   box-shadow: 2px 2px 5px rgba(164, 162, 162, 0.5);
   border-radius: 10px;
-
+  cursor: pointer;
 }
 
 .col-1 {
@@ -227,6 +227,28 @@ p {
 .padding-b {
   padding-bottom: 0.5em;
 }
+
+/* Landing page card skills cards styles */
+
+.skill-level {
+    display: none;
+}
+
+.flipped p{
+    display: none;
+}
+
+.flipped h4 {
+    display:block;
+    text-align: center;
+}
+
+.col-0.flipped {
+    background-color: #f8f8f8;
+}
+
+/* End of Landing page card skills cards styles */
+
 /* --- End of LANDING PAGE ------------------------------------- */
 
 /* --- ABOUT PAGE ---------------------------------------------- */
@@ -385,6 +407,7 @@ footer a {
 /* --- End of FOOTER section -------------------------------------- */
 
 /* --- RESPONSIVE DESIGN ------------------------------------------ */
+
 @media (max-width: 1100px) {
   .intro-image h1 {
     font-size: 3rem;
