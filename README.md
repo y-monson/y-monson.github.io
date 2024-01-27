@@ -1,2 +1,3 @@
-# y-monson.github.io
-Site hosting my Web Development Portfolio
+# Web Development Portfolio
+
+This site is built with HTML, CSS, and JavaScript. 
